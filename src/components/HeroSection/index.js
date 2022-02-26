@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
+import Profile from '../../images/profile.jpg'
 import { Button } from '../ButtonElements';
 import {
   HeroContainer,
@@ -11,6 +12,8 @@ import {
   HeroP,
   ArrowForward,
   ArrowRight,
+  HeroAvatarWrap,
+  HeroAvatar,
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -26,6 +29,9 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
+        <HeroAvatarWrap>
+          <HeroAvatar src={Profile} />
+        </HeroAvatarWrap>
         <HeroH1>I'm Software Engineer.</HeroH1>
         <HeroP>
           Hello everyone, My name's Jakkrit Sueakhonburee.

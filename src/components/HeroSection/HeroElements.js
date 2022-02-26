@@ -105,3 +105,16 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+
+
+export const HeroAvatarWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`;
+
+export const HeroAvatar = styled.img`
+  width: 200px;
+	height: 200px;
+  border-radius: 50%; 
+  margin: 0px;
+`
