@@ -16,7 +16,7 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-        <ServicesH1>Our Services</ServicesH1>
+        <ServicesH1>Other side</ServicesH1>
         <ServicesWapper>
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>

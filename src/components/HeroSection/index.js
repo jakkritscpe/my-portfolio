@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>I'm Software Engineer.</HeroH1>
         <HeroP>
-          Hello every body my name's Jakkrit Sueakhonburee.
+          Hello everyone, My name's Jakkrit Sueakhonburee.
         </HeroP>
         <HeroBtnWrapper>
           <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
