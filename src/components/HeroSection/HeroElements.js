@@ -113,8 +113,8 @@ export const HeroAvatarWrap = styled.div`
 `;
 
 export const HeroAvatar = styled.img`
-  width: 200px;
-	height: 200px;
+  width: 230px;
+	height: 230px;
   border-radius: 50%; 
   margin: 0px;
 `
