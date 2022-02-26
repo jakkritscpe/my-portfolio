@@ -1,5 +1,5 @@
 export const homeObjOne = {
-  id: 'about',
+  id: 'experience',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -22,14 +22,14 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Premium Bank',
-  headline: 'Unlimited Transection with zero fees',
+  topLine: 'Discover',
+  headline: "This is what I discovered.",
   description:
-    'Get access to our exclusive app that allows you to sand unlimited transaction without getting charged any fees.',
-  buttonLabel: 'Get started',
+    'That is a little nugget of wisdom I would really like to jot down and I hope it will be useful to you.',
+  buttonLabel: 'See more',
   imgStart: true,
   img: require('../../images/svg-1.svg').default,
-  alt: 'Car',
+  alt: 'Coding',
   dark: false,
   primary: false,
   darkText: true,
@@ -37,7 +37,7 @@ export const homeObjTwo = {
 
 
 export const homeObjThree = {
-  id: 'signup',
+  id: 'about',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
